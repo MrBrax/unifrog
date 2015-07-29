@@ -195,7 +195,7 @@ public class MainGame implements ActionListener {
 		sound_bike = Applet.newAudioClip(unifrog.class.getResource("bike.wav"));
 		
 		System.out.println("MainGame");
-		f = new JFrame(unifrog.appTitle + " - v" + unifrog.version);
+		f = new JFrame(unifrog.appTitle);
 		f.setLayout(null);
 		
 		//f.setUndecorated(true);

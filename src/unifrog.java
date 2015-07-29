@@ -44,12 +44,13 @@ public class unifrog {
 	static String username = "";
 	static String password = "";
 	
-	static String appTitle = "Unifrog";
+	static int version = 18;
+	
+	static String appTitle = "Unifrog v" + version;
 	
 	public static String[][] ItemList = new String[49][3];
 	public static String ItemHash = "-1";
 	
-	static int version = 15;
 	static Insets insets = new Insets(0, 0, 0, 0);
 	static Insets hp = new Insets(3, 3, 3, 3);
 	static boolean radioEnabled = false;
