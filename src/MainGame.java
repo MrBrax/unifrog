@@ -139,9 +139,16 @@ public class MainGame implements ActionListener {
 					mAccessories.add(tmp);
 					
 				}
-			
 			}
 		}
+		
+		JMenuItem tmp = new JMenuItem("Stop radio");
+		tmp.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent ae2) {
+				MusicPlayer.stop();
+			}
+		});
+		mAccessories.add(tmp);
 		
 		/*
 			JCheckBoxMenuItem mMusic = new JCheckBoxMenuItem("Radio on");
